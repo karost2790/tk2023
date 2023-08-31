@@ -1,6 +1,6 @@
 1. Check windows partition
 
-```
+```c
 diskmgm
 ```
 
@@ -16,7 +16,7 @@ Shrink Volume on driver C to add new sprint new partition
 2. Download archlinux and build boot usb
 3. Bot archlinux from windows 
 
-```
+```c
 # search windows 'boot'
 select change advance-up option 
 select Restart now
@@ -28,7 +28,7 @@ select 1 option x86.64(uefi) cd
 ```
 
 4. Install Archlinux
-```
+```bash
 # if text size is too small then setfont
 ~# setfont ter-132n
 
